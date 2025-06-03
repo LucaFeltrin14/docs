@@ -1,0 +1,28 @@
+site_name: Documentação EKS
+theme:
+  name: material
+
+nav:
+  - Início: index.md
+  - APIs:
+    - Exchange: exchange_api_documentation.md
+    - Product: product_api_documentation.md
+    - Order: order_api_documentation.md
+  - Devops:
+    - Kubernetes: minikube_k8s_documentation.md
+    - Jenkins: jenkins_pipeline_documentation.md
+    - BottleNeck: bottlenecks.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+  - pymdownx.tabbed
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js

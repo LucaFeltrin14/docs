@@ -6,6 +6,7 @@ Repositórios utilizados na aba: Individual > Repositórios
 
 Instruções de execução na aba: Individual > Repositórios(fim da página)
 
+
 ## ✔️ Resumo das Entregas
 
 | Entregável    | Status       |

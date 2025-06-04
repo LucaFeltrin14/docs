@@ -6,7 +6,7 @@ Nesta primeira etapa do projeto, realizamos toda a configuração necessária pa
 
 ## Visão Geral
 
-A AWS foi escolhida como plataforma de infraestrutura por sua escalabilidade, confiabilidade e integração nativa com serviços de orquestração como o Amazon EKS. Essa escolha permitiu que o projeto explorasse os principais conceitos de infraestrutura como serviço (IaaS) e container orchestration com segurança e performance.
+A AWS foi escolhida como plataforma de infraestrutura por sua escalabilidade, confiabilidade e integração nativa com serviços de orquestração como o Amazon EKS. Essa escolha permitiu que o projeto explorasse os principais conceitos de infraestrutura como serviço (IaaS) e container orchestration com segurança e performance..
 
 ---
 

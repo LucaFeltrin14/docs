@@ -9,22 +9,22 @@
       
       
       
-        <link rel="prev" href="../minikube_k8s_documentation/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../bottlenecks/">
+        <link rel="next" href="../EKS/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>Jenkins - Documentação EKS</title>
+        <title>AWS - Documentação EKS</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
       
 
@@ -43,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#jenkins-pipeline" class="md-skip">
+        <a href="#etapa-1-configuracao-da-aws" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Documentação EKS" class="md-header__button md-logo" aria-label="Documentação EKS" data-md-component="logo">
+    <a href="../.." title="Documentação EKS" class="md-header__button md-logo" aria-label="Documentação EKS" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Jenkins
+              AWS
             
           </span>
         </div>
@@ -176,7 +176,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Documentação EKS" class="md-nav__button md-logo" aria-label="Documentação EKS" data-md-component="logo">
+    <a href="../.." title="Documentação EKS" class="md-nav__button md-logo" aria-label="Documentação EKS" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -193,13 +193,51 @@
   
   
   
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Individual
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Individual
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../../individual/inicio/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Início
+    Inicio
     
   </span>
   
@@ -208,9 +246,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -224,15 +263,15 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_2" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_1_2" id="__nav_1_2_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
-    teste222
+    API
     
   </span>
   
@@ -240,10 +279,10 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_2">
             <span class="md-nav__icon md-icon"></span>
-            teste222
+            API
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -254,7 +293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../exchange_api_documentation/" class="md-nav__link">
+      <a href="../../individual/exchange/" class="md-nav__link">
         
   
   
@@ -277,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../product_api_documentation/" class="md-nav__link">
+      <a href="../../individual/product/" class="md-nav__link">
         
   
   
@@ -300,12 +339,158 @@
   
   
     <li class="md-nav__item">
-      <a href="../order_api_documentation/" class="md-nav__link">
+      <a href="../../individual/order/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     Order
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_1_3" id="__nav_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    DevOps
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../individual/mini/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kubernetes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../individual/jenkins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Jenkins
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../individual/bottlenecks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BottleNeck
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../individual/repositorios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Repositorios e Checkpoints
     
   </span>
   
@@ -340,15 +525,15 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
-    teste
+    Projeto
     
   </span>
   
@@ -356,10 +541,10 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            teste
+            Projeto
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -370,12 +555,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../minikube_k8s_documentation/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Kubernetes
+    Início
     
   </span>
   
@@ -407,7 +592,7 @@
   
   
   <span class="md-ellipsis">
-    Jenkins
+    AWS
     
   </span>
   
@@ -420,7 +605,7 @@
   
   
   <span class="md-ellipsis">
-    Jenkins
+    AWS
     
   </span>
   
@@ -452,28 +637,55 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#estrutura-do-projeto" class="md-nav__link">
+  <a href="#o-que-foi-feito" class="md-nav__link">
     <span class="md-ellipsis">
-      Estrutura do Projeto
+      O que foi feito
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="O que foi feito">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criacao-e-configuracao-da-conta-aws" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Criação e Configuração da Conta AWS
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#etapas-do-pipeline" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#iam-gestao-de-usuarios-e-permissoes" class="md-nav__link">
     <span class="md-ellipsis">
-      Etapas do Pipeline
+      ✅ IAM: Gestão de Usuários e Permissões
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Etapas do Pipeline">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
-  <a href="#etapas-obrigatorias" class="md-nav__link">
+  <a href="#aws-cli" class="md-nav__link">
     <span class="md-ellipsis">
-      Etapas obrigatórias:
+      ✅ AWS CLI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preparacao-para-o-eks" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Preparação para o EKS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#organizacao-de-recursos-e-boas-praticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Organização de recursos e boas práticas
     </span>
   </a>
   
@@ -485,9 +697,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#exemplo-de-jenkinsfile-account-service" class="md-nav__link">
+  <a href="#resultado" class="md-nav__link">
     <span class="md-ellipsis">
-      Exemplo de Jenkinsfile – account-service
+      Resultado
     </span>
   </a>
   
@@ -497,24 +709,6 @@
   <a href="#observacoes" class="md-nav__link">
     <span class="md-ellipsis">
       Observações
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#requisitos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Requisitos
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#consideracoes-finais" class="md-nav__link">
-    <span class="md-ellipsis">
-      Considerações Finais
     </span>
   </a>
   
@@ -536,12 +730,58 @@
   
   
     <li class="md-nav__item">
-      <a href="../bottlenecks/" class="md-nav__link">
+      <a href="../EKS/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    BottleNeck
+    EKS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TesteDeCarga/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Teste de Carga
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analiseDeCusto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Analise de Custo
     
   </span>
   
@@ -595,28 +835,55 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#estrutura-do-projeto" class="md-nav__link">
+  <a href="#o-que-foi-feito" class="md-nav__link">
     <span class="md-ellipsis">
-      Estrutura do Projeto
+      O que foi feito
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="O que foi feito">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criacao-e-configuracao-da-conta-aws" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Criação e Configuração da Conta AWS
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#etapas-do-pipeline" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#iam-gestao-de-usuarios-e-permissoes" class="md-nav__link">
     <span class="md-ellipsis">
-      Etapas do Pipeline
+      ✅ IAM: Gestão de Usuários e Permissões
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Etapas do Pipeline">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
-  <a href="#etapas-obrigatorias" class="md-nav__link">
+  <a href="#aws-cli" class="md-nav__link">
     <span class="md-ellipsis">
-      Etapas obrigatórias:
+      ✅ AWS CLI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preparacao-para-o-eks" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Preparação para o EKS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#organizacao-de-recursos-e-boas-praticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Organização de recursos e boas práticas
     </span>
   </a>
   
@@ -628,9 +895,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#exemplo-de-jenkinsfile-account-service" class="md-nav__link">
+  <a href="#resultado" class="md-nav__link">
     <span class="md-ellipsis">
-      Exemplo de Jenkinsfile – account-service
+      Resultado
     </span>
   </a>
   
@@ -640,24 +907,6 @@
   <a href="#observacoes" class="md-nav__link">
     <span class="md-ellipsis">
       Observações
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#requisitos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Requisitos
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#consideracoes-finais" class="md-nav__link">
-    <span class="md-ellipsis">
-      Considerações Finais
     </span>
   </a>
   
@@ -679,95 +928,45 @@
 
 
 
-<h1 id="jenkins-pipeline">Jenkins Pipeline<a class="headerlink" href="#jenkins-pipeline" title="Permanent link">&para;</a></h1>
+<h1 id="etapa-1-configuracao-da-aws">Etapa 1 – Configuração da AWS<a class="headerlink" href="#etapa-1-configuracao-da-aws" title="Permanent link">&para;</a></h1>
+<p>Nesta primeira etapa do projeto, realizamos toda a configuração necessária para preparar a infraestrutura em nuvem utilizando a Amazon Web Services (AWS), que foi a base para o provisionamento dos serviços e do cluster Kubernetes.</p>
+<hr />
 <h2 id="visao-geral">Visão Geral<a class="headerlink" href="#visao-geral" title="Permanent link">&para;</a></h2>
-<p>Esta etapa do projeto define a automação do <strong>deploy de microserviços em um cluster Kubernetes</strong> utilizando <strong>Jenkins</strong>. A pipeline contempla as etapas de versionamento, build, empacotamento, publicação no Docker Hub e deploy em um cluster K8s.</p>
-<p>A automação garante consistência, reprodutibilidade e integração contínua entre os serviços da aplicação.</p>
+<p>A AWS foi escolhida como plataforma de infraestrutura por sua escalabilidade, confiabilidade e integração nativa com serviços de orquestração como o Amazon EKS. Essa escolha permitiu que o projeto explorasse os principais conceitos de infraestrutura como serviço (IaaS) e container orchestration com segurança e performance.</p>
 <hr />
-<h2 id="estrutura-do-projeto">Estrutura do Projeto<a class="headerlink" href="#estrutura-do-projeto" title="Permanent link">&para;</a></h2>
-<p>Todos os microserviços devem conter um <code>Jenkinsfile</code> em seu respectivo diretório:</p>
-<div class="highlight"><pre><span></span><code>.
-├── account-service
-│   ├── Jenkinsfile
-│   └── ...
-├── auth-service
-│   ├── Jenkinsfile
-│   └── ...
-├── gateway-service
-│   ├── Jenkinsfile
-│   └── ...
-├── product-service
-│   ├── Jenkinsfile
-│   └── ...
-├── order-service
-│   ├── Jenkinsfile
-│   └── ...
-</code></pre></div>
-<p>O pipeline principal deve estar na <strong>raiz do projeto</strong>, orquestrando o deploy de todos os microserviços no mesmo cluster Kubernetes.</p>
+<h2 id="o-que-foi-feito">O que foi feito<a class="headerlink" href="#o-que-foi-feito" title="Permanent link">&para;</a></h2>
+<h3 id="criacao-e-configuracao-da-conta-aws">✅ Criação e Configuração da Conta AWS<a class="headerlink" href="#criacao-e-configuracao-da-conta-aws" title="Permanent link">&para;</a></h3>
+<p>Iniciamos criando e ativando uma conta na AWS, com vinculação de um cartão de crédito e ativação do acesso completo ao console. A conta foi configurada na região <strong>us-west-2 (Oregon)</strong>, escolhida por sua boa cobertura de serviços e latência estável.</p>
 <hr />
-<h2 id="etapas-do-pipeline">Etapas do Pipeline<a class="headerlink" href="#etapas-do-pipeline" title="Permanent link">&para;</a></h2>
-<h3 id="etapas-obrigatorias">Etapas obrigatórias:<a class="headerlink" href="#etapas-obrigatorias" title="Permanent link">&para;</a></h3>
-<ol>
-<li><strong>SCM (Source Code Management)</strong> – Obtém o código mais recente do repositório.</li>
-<li><strong>Dependencies</strong> – Garante que dependências do microserviço estejam resolvidas.</li>
-<li><strong>Build</strong> – Empacota o serviço (ex: com Maven).</li>
-<li><strong>Push to Docker Hub</strong> – Cria e envia a imagem para o Docker Hub.</li>
-<li><strong>Deploy to K8s</strong> – Realiza o deploy da imagem no cluster Kubernetes.</li>
-</ol>
+<h3 id="iam-gestao-de-usuarios-e-permissoes">✅ IAM: Gestão de Usuários e Permissões<a class="headerlink" href="#iam-gestao-de-usuarios-e-permissoes" title="Permanent link">&para;</a></h3>
+<p>Criamos um usuário específico para o projeto com permissões programáticas. Atribuímos políticas necessárias para manipular recursos do EKS, EC2, VPC e ECR, garantindo acesso seguro via CLI. As chaves de acesso foram geradas e utilizadas para autenticação local via terminal.</p>
 <hr />
-<h2 id="exemplo-de-jenkinsfile-account-service">Exemplo de Jenkinsfile – <code>account-service</code><a class="headerlink" href="#exemplo-de-jenkinsfile-account-service" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">pipeline</span><span class="w"> </span><span class="o">{</span>
-<span class="w">    </span><span class="n">agent</span><span class="w"> </span><span class="n">any</span>
-<span class="w">    </span><span class="n">environment</span><span class="w"> </span><span class="o">{</span>
-<span class="w">        </span><span class="n">SERVICE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;account&#39;</span>
-<span class="w">        </span><span class="n">NAME</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;humbertosandmann/${env.SERVICE}&quot;</span>
-<span class="w">    </span><span class="o">}</span>
-<span class="w">    </span><span class="n">stages</span><span class="w"> </span><span class="o">{</span>
-<span class="w">        </span><span class="n">stage</span><span class="o">(</span><span class="s1">&#39;Dependecies&#39;</span><span class="o">)</span><span class="w"> </span><span class="o">{</span>
-<span class="w">            </span><span class="n">steps</span><span class="w"> </span><span class="o">{</span>
-<span class="w">                </span><span class="n">build</span><span class="w"> </span><span class="nl">job:</span><span class="w"> </span><span class="s1">&#39;account&#39;</span><span class="o">,</span><span class="w"> </span><span class="nl">wait:</span><span class="w"> </span><span class="kc">true</span>
-<span class="w">            </span><span class="o">}</span>
-<span class="w">        </span><span class="o">}</span>
-<span class="w">        </span><span class="n">stage</span><span class="o">(</span><span class="s1">&#39;Build&#39;</span><span class="o">)</span><span class="w"> </span><span class="o">{</span><span class="w"> </span>
-<span class="w">            </span><span class="n">steps</span><span class="w"> </span><span class="o">{</span>
-<span class="w">                </span><span class="n">sh</span><span class="w"> </span><span class="s1">&#39;mvn -B -DskipTests clean package&#39;</span>
-<span class="w">            </span><span class="o">}</span>
-<span class="w">        </span><span class="o">}</span><span class="w">      </span>
-<span class="w">        </span><span class="n">stage</span><span class="o">(</span><span class="s1">&#39;Build &amp; Push Image&#39;</span><span class="o">)</span><span class="w"> </span><span class="o">{</span>
-<span class="w">            </span><span class="n">steps</span><span class="w"> </span><span class="o">{</span>
-<span class="w">                </span><span class="n">withCredentials</span><span class="o">([</span><span class="n">usernamePassword</span><span class="o">(</span><span class="nl">credentialsId:</span><span class="w"> </span><span class="s1">&#39;dockerhub-credential&#39;</span><span class="o">,</span><span class="w"> </span><span class="nl">usernameVariable:</span><span class="w"> </span><span class="s1">&#39;USERNAME&#39;</span><span class="o">,</span><span class="w"> </span><span class="nl">passwordVariable:</span><span class="w"> </span><span class="s1">&#39;TOKEN&#39;</span><span class="o">)])</span><span class="w"> </span><span class="o">{</span>
-<span class="w">                    </span><span class="n">sh</span><span class="w"> </span><span class="s2">&quot;docker login -u $USERNAME -p $TOKEN&quot;</span>
-<span class="w">                    </span><span class="n">sh</span><span class="w"> </span><span class="s2">&quot;docker buildx create --use --platform=linux/arm64,linux/amd64 --node multi-platform-builder-${env.SERVICE} --name multi-platform-builder-${env.SERVICE}&quot;</span>
-<span class="w">                    </span><span class="n">sh</span><span class="w"> </span><span class="s2">&quot;docker buildx build --platform=linux/arm64,linux/amd64 --push --tag ${env.NAME}:latest --tag ${env.NAME}:${env.BUILD_ID} -f Dockerfile .&quot;</span>
-<span class="w">                    </span><span class="n">sh</span><span class="w"> </span><span class="s2">&quot;docker buildx rm --force multi-platform-builder-${env.SERVICE}&quot;</span>
-<span class="w">                </span><span class="o">}</span>
-<span class="w">            </span><span class="o">}</span>
-<span class="w">        </span><span class="o">}</span>
-<span class="w">    </span><span class="o">}</span>
-<span class="o">}</span>
-</code></pre></div>
+<h3 id="aws-cli">✅ AWS CLI<a class="headerlink" href="#aws-cli" title="Permanent link">&para;</a></h3>
+<p>Configuramos o ambiente local com a <strong>AWS Command Line Interface (CLI)</strong>, o que permitiu realizar todas as operações da nuvem diretamente pelo terminal, incluindo criação de cluster, monitoramento e manipulação de recursos.</p>
+<p>A CLI foi vinculada ao usuário IAM criado anteriormente, e todos os comandos foram executados autenticados por esse canal.</p>
+<hr />
+<h3 id="preparacao-para-o-eks">✅ Preparação para o EKS<a class="headerlink" href="#preparacao-para-o-eks" title="Permanent link">&para;</a></h3>
+<p>Como parte da preparação para o cluster Kubernetes, instalamos ferramentas auxiliares como <code>kubectl</code> e <code>eksctl</code>, utilizadas nas etapas seguintes do projeto. Com essas ferramentas, garantimos que seria possível gerenciar o cluster sem depender exclusivamente do console web.</p>
+<hr />
+<h3 id="organizacao-de-recursos-e-boas-praticas">✅ Organização de recursos e boas práticas<a class="headerlink" href="#organizacao-de-recursos-e-boas-praticas" title="Permanent link">&para;</a></h3>
+<p>Durante a configuração inicial da AWS, adotamos algumas boas práticas:</p>
+<ul>
+<li>Uso de <strong>nomes padronizados</strong> para todos os recursos (ex: clusters, instâncias, políticas);</li>
+<li>Controle de acesso refinado via IAM;</li>
+<li><strong>Eliminação de recursos não utilizados</strong> para evitar cobranças inesperadas;</li>
+<li>Registros de comandos e ações salvos em logs locais para documentação e rastreabilidade.</li>
+</ul>
+<hr />
+<h2 id="resultado">Resultado<a class="headerlink" href="#resultado" title="Permanent link">&para;</a></h2>
+<p>Ao final desta etapa, a infraestrutura base estava pronta para suportar a criação do cluster Kubernetes, deploy da aplicação e integração com ferramentas de CI/CD. A configuração da AWS foi estável, funcional e seguiu as recomendações de segurança e governança da própria plataforma.</p>
 <hr />
 <h2 id="observacoes">Observações<a class="headerlink" href="#observacoes" title="Permanent link">&para;</a></h2>
+<p>A configuração realizada nesta etapa foi fundamental para o sucesso das etapas seguintes. Sem ela, não seria possível:</p>
 <ul>
-<li>Todos os microserviços devem ser enviados para o mesmo <strong>cluster Kubernetes</strong>.</li>
-<li>O uso do <code>docker buildx</code> permite builds multiplataforma.</li>
-<li>As <strong>credenciais Docker Hub</strong> devem estar configuradas no Jenkins (<code>dockerhub-credential</code>).</li>
-<li>Utilize <code>build job: 'serviço'</code> para acionar builds dependentes.</li>
-</ul>
-<hr />
-<h2 id="requisitos">Requisitos<a class="headerlink" href="#requisitos" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Jenkins com plugins de Docker, Kubernetes e Git configurados.</li>
-<li>Credenciais seguras salvas no Jenkins.</li>
-<li>Acesso ao cluster K8s previamente configurado.</li>
-<li>Repositório Git com estrutura de microserviços.</li>
-</ul>
-<hr />
-<h2 id="consideracoes-finais">Considerações Finais<a class="headerlink" href="#consideracoes-finais" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Essa estrutura promove <strong>CI/CD eficiente e padronizado</strong>.</li>
-<li>Pode ser expandida com testes automatizados, lint, análise estática de código e integração com Prometheus/Grafana.</li>
-<li>Ajuda no <strong>versionamento controlado de imagens</strong> com o uso do <code>BUILD_ID</code>.</li>
+<li>Provisionar o cluster EKS;</li>
+<li>Realizar testes de carga em ambiente escalável;</li>
+<li>Implantar um pipeline de CI/CD integrado com serviços de nuvem;</li>
+<li>Estimar custos com base em uso real da infraestrutura.</li>
 </ul>
 <hr />
 
@@ -818,10 +1017,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
         <script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
       

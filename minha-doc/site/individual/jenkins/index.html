@@ -9,13 +9,13 @@
       
       
       
-        <link rel="prev" href="../minikube_k8s_documentation/">
+        <link rel="prev" href="../mini/">
       
       
         <link rel="next" href="../bottlenecks/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
       
 
@@ -43,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#jenkins-pipeline" class="md-skip">
+        <a href="#automacao-de-deploy-com-jenkins" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Documentação EKS" class="md-header__button md-logo" aria-label="Documentação EKS" data-md-component="logo">
+    <a href="../.." title="Documentação EKS" class="md-header__button md-logo" aria-label="Documentação EKS" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -176,7 +176,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Documentação EKS" class="md-nav__button md-logo" aria-label="Documentação EKS" data-md-component="logo">
+    <a href="../.." title="Documentação EKS" class="md-nav__button md-logo" aria-label="Documentação EKS" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -191,15 +191,55 @@
       
   
   
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Individual
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Individual
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../inicio/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Início
+    Inicio
     
   </span>
   
@@ -208,9 +248,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -224,15 +265,15 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_2" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_1_2" id="__nav_1_2_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
-    APIs
+    API
     
   </span>
   
@@ -240,10 +281,10 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_2">
             <span class="md-nav__icon md-icon"></span>
-            APIs
+            API
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -254,7 +295,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../exchange_api_documentation/" class="md-nav__link">
+      <a href="../exchange/" class="md-nav__link">
         
   
   
@@ -277,7 +318,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../product_api_documentation/" class="md-nav__link">
+      <a href="../product/" class="md-nav__link">
         
   
   
@@ -300,7 +341,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../order_api_documentation/" class="md-nav__link">
+      <a href="../order/" class="md-nav__link">
         
   
   
@@ -322,9 +363,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
     
@@ -340,15 +382,15 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_1_3" id="__nav_1_3_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
-    Devops
+    DevOps
     
   </span>
   
@@ -356,10 +398,10 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1_3">
             <span class="md-nav__icon md-icon"></span>
-            Devops
+            DevOps
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -370,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../minikube_k8s_documentation/" class="md-nav__link">
+      <a href="../mini/" class="md-nav__link">
         
   
   
@@ -443,9 +485,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#visao-geral" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Visão Geral
+      Overview
     </span>
   </a>
   
@@ -454,7 +496,7 @@
         <li class="md-nav__item">
   <a href="#estrutura-do-projeto" class="md-nav__link">
     <span class="md-ellipsis">
-      Estrutura do Projeto
+      🧱 Estrutura do Projeto
     </span>
   </a>
   
@@ -463,49 +505,16 @@
         <li class="md-nav__item">
   <a href="#etapas-do-pipeline" class="md-nav__link">
     <span class="md-ellipsis">
-      Etapas do Pipeline
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Etapas do Pipeline">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#etapas-obrigatorias" class="md-nav__link">
-    <span class="md-ellipsis">
-      Etapas obrigatórias:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exemplo-de-jenkinsfile-account-service" class="md-nav__link">
-    <span class="md-ellipsis">
-      Exemplo de Jenkinsfile – account-service
+      🔁 Etapas do Pipeline
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#jenkins" class="md-nav__link">
+  <a href="#exemplo-de-jenkinsfile-product-service" class="md-nav__link">
     <span class="md-ellipsis">
-      Jenkins
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#observacoes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Observações
+      📄 Exemplo de Jenkinsfile (product-service)
     </span>
   </a>
   
@@ -514,16 +523,34 @@
         <li class="md-nav__item">
   <a href="#requisitos" class="md-nav__link">
     <span class="md-ellipsis">
-      Requisitos
+      🧩 Requisitos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#consideracoes-finais" class="md-nav__link">
+  <a href="#deploy-integrado" class="md-nav__link">
     <span class="md-ellipsis">
-      Considerações Finais
+      🌐 Deploy Integrado
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dicas-expansoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      💡 Dicas &amp; Expansões
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplo-visual" class="md-nav__link">
+    <span class="md-ellipsis">
+      🖼 Exemplo Visual
     </span>
   </a>
   
@@ -551,6 +578,197 @@
   
   <span class="md-ellipsis">
     BottleNeck
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../repositorios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Repositorios e Checkpoints
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Projeto
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projeto/AWS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AWS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projeto/EKS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    EKS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projeto/TesteDeCarga/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Teste de Carga
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projeto/analiseDeCusto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Analise de Custo
     
   </span>
   
@@ -595,9 +813,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#visao-geral" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Visão Geral
+      Overview
     </span>
   </a>
   
@@ -606,7 +824,7 @@
         <li class="md-nav__item">
   <a href="#estrutura-do-projeto" class="md-nav__link">
     <span class="md-ellipsis">
-      Estrutura do Projeto
+      🧱 Estrutura do Projeto
     </span>
   </a>
   
@@ -615,49 +833,16 @@
         <li class="md-nav__item">
   <a href="#etapas-do-pipeline" class="md-nav__link">
     <span class="md-ellipsis">
-      Etapas do Pipeline
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Etapas do Pipeline">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#etapas-obrigatorias" class="md-nav__link">
-    <span class="md-ellipsis">
-      Etapas obrigatórias:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exemplo-de-jenkinsfile-account-service" class="md-nav__link">
-    <span class="md-ellipsis">
-      Exemplo de Jenkinsfile – account-service
+      🔁 Etapas do Pipeline
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#jenkins" class="md-nav__link">
+  <a href="#exemplo-de-jenkinsfile-product-service" class="md-nav__link">
     <span class="md-ellipsis">
-      Jenkins
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#observacoes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Observações
+      📄 Exemplo de Jenkinsfile (product-service)
     </span>
   </a>
   
@@ -666,16 +851,34 @@
         <li class="md-nav__item">
   <a href="#requisitos" class="md-nav__link">
     <span class="md-ellipsis">
-      Requisitos
+      🧩 Requisitos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#consideracoes-finais" class="md-nav__link">
+  <a href="#deploy-integrado" class="md-nav__link">
     <span class="md-ellipsis">
-      Considerações Finais
+      🌐 Deploy Integrado
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dicas-expansoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      💡 Dicas &amp; Expansões
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplo-visual" class="md-nav__link">
+    <span class="md-ellipsis">
+      🖼 Exemplo Visual
     </span>
   </a>
   
@@ -697,64 +900,62 @@
 
 
 
-<h1 id="jenkins-pipeline">Jenkins Pipeline<a class="headerlink" href="#jenkins-pipeline" title="Permanent link">&para;</a></h1>
-<h2 id="visao-geral">Visão Geral<a class="headerlink" href="#visao-geral" title="Permanent link">&para;</a></h2>
-<p>Esta etapa do projeto define a automação do <strong>deploy de microserviços em um cluster Kubernetes</strong> utilizando <strong>Jenkins</strong>. A pipeline contempla as etapas de versionamento, build, empacotamento, publicação no Docker Hub e deploy em um cluster K8s.</p>
-<p>A automação garante consistência, reprodutibilidade e integração contínua entre os serviços da aplicação.</p>
+<h1 id="automacao-de-deploy-com-jenkins">Automação de Deploy com Jenkins<a class="headerlink" href="#automacao-de-deploy-com-jenkins" title="Permanent link">&para;</a></h1>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>Este módulo aborda a criação de uma pipeline de automação utilizando <strong>Jenkins</strong> para realizar o <strong>build, empacotamento, publicação e deploy</strong> contínuos dos microserviços em um cluster <strong>Kubernetes</strong>.</p>
+<p>A ideia é garantir um fluxo padronizado e confiável de <strong>CI/CD</strong> para toda a plataforma.</p>
 <hr />
-<h2 id="estrutura-do-projeto">Estrutura do Projeto<a class="headerlink" href="#estrutura-do-projeto" title="Permanent link">&para;</a></h2>
-<p>Todos os microserviços devem conter um <code>Jenkinsfile</code> em seu respectivo diretório:</p>
+<h2 id="estrutura-do-projeto">🧱 Estrutura do Projeto<a class="headerlink" href="#estrutura-do-projeto" title="Permanent link">&para;</a></h2>
+<p>Cada microserviço possui um <code>Jenkinsfile</code> específico no seu diretório raiz. Além disso, um pipeline principal pode ser utilizado para orquestrar múltiplos serviços em sequência:</p>
 <div class="highlight"><pre><span></span><code>.
-├── account-service
-│   ├── Jenkinsfile
-│   └── ...
-├── auth-service
-│   ├── Jenkinsfile
-│   └── ...
-├── gateway-service
-│   ├── Jenkinsfile
-│   └── ...
-├── product-service
-│   ├── Jenkinsfile
-│   └── ...
-├── order-service
-│   ├── Jenkinsfile
-│   └── ...
+├── account-service/
+│   └── Jenkinsfile
+├── auth-service/
+│   └── Jenkinsfile
+├── gateway-service/
+│   └── Jenkinsfile
+├── product-service/
+│   └── Jenkinsfile
+├── order-service/
+│   └── Jenkinsfile
 </code></pre></div>
-<p>O pipeline principal deve estar na <strong>raiz do projeto</strong>, orquestrando o deploy de todos os microserviços no mesmo cluster Kubernetes.</p>
 <hr />
-<h2 id="etapas-do-pipeline">Etapas do Pipeline<a class="headerlink" href="#etapas-do-pipeline" title="Permanent link">&para;</a></h2>
-<h3 id="etapas-obrigatorias">Etapas obrigatórias:<a class="headerlink" href="#etapas-obrigatorias" title="Permanent link">&para;</a></h3>
+<h2 id="etapas-do-pipeline">🔁 Etapas do Pipeline<a class="headerlink" href="#etapas-do-pipeline" title="Permanent link">&para;</a></h2>
+<p>Cada <code>Jenkinsfile</code> deve implementar uma sequência clara de etapas:</p>
 <ol>
-<li><strong>SCM (Source Code Management)</strong> – Obtém o código mais recente do repositório.</li>
-<li><strong>Dependencies</strong> – Garante que dependências do microserviço estejam resolvidas.</li>
-<li><strong>Build</strong> – Empacota o serviço (ex: com Maven).</li>
-<li><strong>Push to Docker Hub</strong> – Cria e envia a imagem para o Docker Hub.</li>
-<li><strong>Deploy to K8s</strong> – Realiza o deploy da imagem no cluster Kubernetes.</li>
+<li><strong>Clonagem do Repositório</strong> – Garante acesso ao código atualizado.</li>
+<li><strong>Instalação de Dependências</strong> – Prepara o ambiente da aplicação.</li>
+<li><strong>Build do Serviço</strong> – Compila e empacota o microserviço.</li>
+<li><strong>Build &amp; Push da Imagem</strong> – Constrói a imagem Docker e envia para o Docker Hub.</li>
+<li><strong>Deploy no Cluster</strong> – Atualiza o serviço no Kubernetes com a nova imagem.</li>
 </ol>
 <hr />
-<h2 id="exemplo-de-jenkinsfile-account-service">Exemplo de Jenkinsfile – <code>account-service</code><a class="headerlink" href="#exemplo-de-jenkinsfile-account-service" title="Permanent link">&para;</a></h2>
+<h2 id="exemplo-de-jenkinsfile-product-service">📄 Exemplo de Jenkinsfile (<code>product-service</code>)<a class="headerlink" href="#exemplo-de-jenkinsfile-product-service" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="n">pipeline</span><span class="w"> </span><span class="o">{</span>
 <span class="w">    </span><span class="n">agent</span><span class="w"> </span><span class="n">any</span>
 <span class="w">    </span><span class="n">environment</span><span class="w"> </span><span class="o">{</span>
-<span class="w">        </span><span class="n">SERVICE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;account&#39;</span>
-<span class="w">        </span><span class="n">NAME</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;humbertosandmann/${env.SERVICE}&quot;</span>
+<span class="w">        </span><span class="n">SERVICE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;product&#39;</span>
+<span class="w">        </span><span class="n">NAME</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;lucafeltrin14/${env.SERVICE}&quot;</span>
 <span class="w">    </span><span class="o">}</span>
 <span class="w">    </span><span class="n">stages</span><span class="w"> </span><span class="o">{</span>
-<span class="w">        </span><span class="n">stage</span><span class="o">(</span><span class="s1">&#39;Dependecies&#39;</span><span class="o">)</span><span class="w"> </span><span class="o">{</span>
+<span class="w">        </span><span class="n">stage</span><span class="o">(</span><span class="s1">&#39;Dependencies&#39;</span><span class="o">)</span><span class="w"> </span><span class="o">{</span>
 <span class="w">            </span><span class="n">steps</span><span class="w"> </span><span class="o">{</span>
-<span class="w">                </span><span class="n">build</span><span class="w"> </span><span class="nl">job:</span><span class="w"> </span><span class="s1">&#39;account&#39;</span><span class="o">,</span><span class="w"> </span><span class="nl">wait:</span><span class="w"> </span><span class="kc">true</span>
+<span class="w">                </span><span class="n">build</span><span class="w"> </span><span class="nl">job:</span><span class="w"> </span><span class="s1">&#39;product&#39;</span><span class="o">,</span><span class="w"> </span><span class="nl">wait:</span><span class="w"> </span><span class="kc">true</span>
 <span class="w">            </span><span class="o">}</span>
 <span class="w">        </span><span class="o">}</span>
-<span class="w">        </span><span class="n">stage</span><span class="o">(</span><span class="s1">&#39;Build&#39;</span><span class="o">)</span><span class="w"> </span><span class="o">{</span><span class="w"> </span>
+<span class="w">        </span><span class="n">stage</span><span class="o">(</span><span class="s1">&#39;Build&#39;</span><span class="o">)</span><span class="w"> </span><span class="o">{</span>
 <span class="w">            </span><span class="n">steps</span><span class="w"> </span><span class="o">{</span>
 <span class="w">                </span><span class="n">sh</span><span class="w"> </span><span class="s1">&#39;mvn -B -DskipTests clean package&#39;</span>
 <span class="w">            </span><span class="o">}</span>
-<span class="w">        </span><span class="o">}</span><span class="w">      </span>
+<span class="w">        </span><span class="o">}</span>
 <span class="w">        </span><span class="n">stage</span><span class="o">(</span><span class="s1">&#39;Build &amp; Push Image&#39;</span><span class="o">)</span><span class="w"> </span><span class="o">{</span>
 <span class="w">            </span><span class="n">steps</span><span class="w"> </span><span class="o">{</span>
-<span class="w">                </span><span class="n">withCredentials</span><span class="o">([</span><span class="n">usernamePassword</span><span class="o">(</span><span class="nl">credentialsId:</span><span class="w"> </span><span class="s1">&#39;dockerhub-credential&#39;</span><span class="o">,</span><span class="w"> </span><span class="nl">usernameVariable:</span><span class="w"> </span><span class="s1">&#39;USERNAME&#39;</span><span class="o">,</span><span class="w"> </span><span class="nl">passwordVariable:</span><span class="w"> </span><span class="s1">&#39;TOKEN&#39;</span><span class="o">)])</span><span class="w"> </span><span class="o">{</span>
-<span class="w">                    </span><span class="n">sh</span><span class="w"> </span><span class="s2">&quot;docker login -u $USERNAME -p $TOKEN&quot;</span>
+<span class="w">                </span><span class="n">withCredentials</span><span class="o">([</span><span class="n">usernamePassword</span><span class="o">(</span>
+<span class="w">                    </span><span class="nl">credentialsId:</span><span class="w"> </span><span class="s1">&#39;dockerhub-credential&#39;</span><span class="o">,</span>
+<span class="w">                    </span><span class="nl">usernameVariable:</span><span class="w"> </span><span class="s1">&#39;USERNAME&#39;</span><span class="o">,</span>
+<span class="w">                    </span><span class="nl">passwordVariable:</span><span class="w"> </span><span class="s1">&#39;TOKEN&#39;</span>
+<span class="w">                </span><span class="o">)])</span><span class="w"> </span><span class="o">{</span>
+<span class="w">                    </span><span class="n">sh</span><span class="w"> </span><span class="s1">&#39;docker login -u $USERNAME -p $TOKEN&#39;</span>
 <span class="w">                    </span><span class="n">sh</span><span class="w"> </span><span class="s2">&quot;docker buildx create --use --platform=linux/arm64,linux/amd64 --node multi-platform-builder-${env.SERVICE} --name multi-platform-builder-${env.SERVICE}&quot;</span>
 <span class="w">                    </span><span class="n">sh</span><span class="w"> </span><span class="s2">&quot;docker buildx build --platform=linux/arm64,linux/amd64 --push --tag ${env.NAME}:latest --tag ${env.NAME}:${env.BUILD_ID} -f Dockerfile .&quot;</span>
 <span class="w">                    </span><span class="n">sh</span><span class="w"> </span><span class="s2">&quot;docker buildx rm --force multi-platform-builder-${env.SERVICE}&quot;</span>
@@ -764,32 +965,40 @@
 <span class="w">    </span><span class="o">}</span>
 <span class="o">}</span>
 </code></pre></div>
-<h2 id="jenkins">Jenkins<a class="headerlink" href="#jenkins" title="Permanent link">&para;</a></h2>
-<p><img alt="alt text" src="../image-1.png" /></p>
 <hr />
-<h2 id="observacoes">Observações<a class="headerlink" href="#observacoes" title="Permanent link">&para;</a></h2>
+<h2 id="requisitos">🧩 Requisitos<a class="headerlink" href="#requisitos" title="Permanent link">&para;</a></h2>
+<p>Para que a automação funcione corretamente, certifique-se de que o ambiente Jenkins esteja configurado com:</p>
 <ul>
-<li>Todos os microserviços devem ser enviados para o mesmo <strong>cluster Kubernetes</strong>.</li>
-<li>O uso do <code>docker buildx</code> permite builds multiplataforma.</li>
-<li>As <strong>credenciais Docker Hub</strong> devem estar configuradas no Jenkins (<code>dockerhub-credential</code>).</li>
-<li>Utilize <code>build job: 'serviço'</code> para acionar builds dependentes.</li>
+<li>Plugins para <strong>Docker</strong>, <strong>Git</strong> e <strong>Kubernetes</strong>.</li>
+<li>Acesso ao cluster Kubernetes (via <code>kubeconfig</code>).</li>
+<li>Credenciais do Docker Hub cadastradas (<code>dockerhub-credential</code>).</li>
+<li>Scripts <code>Dockerfile</code> e <code>k8s.yaml</code> versionados no repositório.</li>
 </ul>
 <hr />
-<h2 id="requisitos">Requisitos<a class="headerlink" href="#requisitos" title="Permanent link">&para;</a></h2>
+<h2 id="deploy-integrado">🌐 Deploy Integrado<a class="headerlink" href="#deploy-integrado" title="Permanent link">&para;</a></h2>
+<p>Todos os serviços devem ser implantados no <strong>mesmo cluster Kubernetes</strong>. O deploy pode ser feito diretamente via comandos <code>kubectl</code> ou com integração via scripts dentro do Jenkinsfile.</p>
+<blockquote>
+<p>Recomenda-se o uso de <code>docker buildx</code> para suportar múltiplas arquiteturas (arm64, amd64).</p>
+</blockquote>
+<hr />
+<h2 id="dicas-expansoes">💡 Dicas &amp; Expansões<a class="headerlink" href="#dicas-expansoes" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Jenkins com plugins de Docker, Kubernetes e Git configurados.</li>
-<li>Credenciais seguras salvas no Jenkins.</li>
-<li>Acesso ao cluster K8s previamente configurado.</li>
-<li>Repositório Git com estrutura de microserviços.</li>
+<li>Use <code>build job: 'service'</code> para compor pipelines maiores e reutilizar etapas entre microserviços.</li>
+<li>
+<p>Pode-se estender o pipeline com:</p>
+</li>
+<li>
+<p>Testes automatizados (JUnit, Pytest, etc.)</p>
+</li>
+<li>Análise estática de código (SonarQube, ESLint, etc.)</li>
+<li>Lint e validação de manifests YAML</li>
+<li>Notificações via Slack ou Discord</li>
+<li>A tag <code>:latest</code> e <code>:${BUILD_ID}</code> ajuda no rastreamento de versões por imagem.</li>
 </ul>
 <hr />
-<h2 id="consideracoes-finais">Considerações Finais<a class="headerlink" href="#consideracoes-finais" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Essa estrutura promove <strong>CI/CD eficiente e padronizado</strong>.</li>
-<li>Pode ser expandida com testes automatizados, lint, análise estática de código e integração com Prometheus/Grafana.</li>
-<li>Ajuda no <strong>versionamento controlado de imagens</strong> com o uso do <code>BUILD_ID</code>.</li>
-</ul>
-<hr />
+<h2 id="exemplo-visual">🖼 Exemplo Visual<a class="headerlink" href="#exemplo-visual" title="Permanent link">&para;</a></h2>
+<p>Pipelines dos microserviços podem ser visualizados no Jenkins:</p>
+<p><img alt="Jenkins Pipeline" src="../jenkins.png" /></p>
 
 
 
@@ -838,10 +1047,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
         <script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
       

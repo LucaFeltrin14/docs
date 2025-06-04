@@ -3,15 +3,23 @@ theme:
   name: material
 
 nav:
-  - Início: index.md
-  - teste222:
-    - Exchange: exchange_api_documentation.md
-    - Product: product_api_documentation.md
-    - Order: order_api_documentation.md
-  - teste:
-    - Kubernetes: minikube_k8s_documentation.md
-    - Jenkins: jenkins_pipeline_documentation.md
-    - BottleNeck: bottlenecks.md
+  - Individual:
+      - Inicio: ./individual/inicio.md
+      - API:
+          - Exchange: ./individual/exchange.md
+          - Product: ./individual/product.md
+          - Order: ./individual/order.md
+      - DevOps:
+          - Kubernetes: ./individual/mini.md
+          - Jenkins: ./individual/jenkins.md
+          - BottleNeck: ./individual/bottlenecks.md
+      - Repositorios e Checkpoints: ./individual/repositorios.md
+  - Projeto:
+      - Início: ./projeto/index.md
+      - AWS: ./projeto/AWS.md
+      - EKS: ./projeto/EKS.md
+      - Teste de Carga: ./projeto/TesteDeCarga.md
+      - Analise de Custo: ./projeto/analiseDeCusto.md
 
 markdown_extensions:
   - admonition
